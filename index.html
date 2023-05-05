@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>  
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Google Generated Search Engine</title>
+    <link href="newpage.html"/>
+  </head>
+  <script >
+    function docs(){
+      window.open("https://docs.google.com/")
+    }
+    function youtube(){
+      window.open("https://www.youtube.com/")
+    }
+    function gmail(){
+      window.open("https://www.gmail.com/")
+    }
+    function twitter(){
+      window.open("https://www.twitter.com/")
+    }
+    function whatsapp(){
+      window.open("https://web.whatsapp.com/")
+    }
+    function googlemaps(){  
+      window.open("https://www.googlemaps.com/")
+    }
+    function linkedin(){
+      window.open("https://www.linkedin.com/")
+    }
+    function news(){
+      window.open("https://news.google.com/home?hl=en-IN&gl=IN&ceid=IN:en")
+    }
+  </script>
+  <body >
+    <div class="dropdown"></div>
+    <div class="preloader" id="preloader">
+      <img src="oie_301051199PiReHP2.gif" />
+    </div>
+    <div id="tags" >    
+      <div class="icons_dropdown_background" id="dropdown_background" onclick="handleDropdown()">
+        <div class="icons_dropdown" id="dropdownTwo">
+          <div class="icons_div"  onclick="docs()">
+            <img src="dropdown menu/docs.png" alt="" >
+          </div>
+          <div class="icons_div"  onclick="youtube()">
+            <img src="dropdown menu/youtube.png" alt="" >
+          </div>
+          <div class="icons_div"  onclick="gmail()">
+            <img src="dropdown menu/gmail.png" alt="" >
+          </div>
+          <div class="icons_div"  onclick="googlemaps()" style="height:2.5rem">
+            <img src="dropdown menu/google-maps.png" alt="" >
+          </div>
+          <div class="icons_div"  onclick="twitter()" style="height:2.5rem">
+            <img src="dropdown menu/twitter.png" alt="" >
+          </div>
+          <div class="icons_div"  onclick="whatsapp()" style="height:2.5rem">
+            <img src="dropdown menu/whatsapp.png" alt="" >
+          </div>
+          <div class="icons_div"  onclick="linkedin()" style="height:2.5rem">
+            <img src="dropdown menu/linkedin.png" alt="" >
+          </div>
+          <div class="icons_div"  onclick="news()" style="height:2.5rem">
+            <img src="dropdown menu/google.png" alt=""  >
+          </div>
+        </div>
+      </div>
+      <div class="dropdown_icon" id="dropdownButton" onclick="handleDropdown()">
+        <img src="dropdown menu/hiroshima-metro-logo.png" />
+      </div>
+      <a href="https://www.google.co.in/imghp?hl=en&authuser=0&ogbl" class="images">Images</a>
+          <a href="https://mail.google.com/" class="gmail">Gmail</a> 
+        </div> 
+    <section>
+      <div class="main">
+        <img src="google.png" />
+        <div class="searchBx">
+          <div class="inputtext">
+              <div><img src="search.png" class="searchButton"/></div>
+            <div><input type="text" name="" value="" onkeydown id="inputBox" class="querys" placeholder="Search the content you want to know about" /></div>
+              <div><img src="mic.png" class="micButton"/></div> 
+            </div>
+          </div>
+          <button  class="searchBtn">Google Search</button>
+        </div>
+      </div>
+    </section>
+    <script src="index.js" charset="UTF-8"></script>
+  </body>
+</html>
